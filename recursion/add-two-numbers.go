@@ -20,7 +20,7 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	num1 := getNumArray(l1)
 	num2 := getNumArray(l2)
 	sum := getSumArray(num1, num2)
-	res := convSumArrayToListNode(&sum)
+	res := convNumArrayToListNode(&sum)
 
 	return res
 }
@@ -60,19 +60,4 @@ func getSumArray(num1 []*int, num2 []*int) []int {
 		}
 	}
 	return sumArray
-}
-
-func convSumArrayToListNode(numArray *[]int) *ListNode {
-	var head *ListNode
-	var tail *ListNode
-
-	tail = &ListNode{Val: (*numArray)[0]}
-
-	if len(*numArray) == 1 {
-		return tail
-	}
-
-	remainder := (*numArray)[1:]
-	head = convSumArrayToListNode(&remainder)
-	return &ListNode{Val: tail.Val, Next: head}
 }

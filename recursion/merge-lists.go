@@ -13,4 +13,6 @@ func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
 		ints[i] = *num
 	}
 	slices.Sort(ints)
+
+	return convNumArrayToListNode(&ints)
 }
