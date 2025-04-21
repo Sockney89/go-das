@@ -16,7 +16,6 @@ Please feel free to look around, copy anything you might find interesting or for
 
 ---
 
-<br>
 > Important!!!
 <br>
 > Under **no** circumstances should you use any of these snippets in production environments!!!
