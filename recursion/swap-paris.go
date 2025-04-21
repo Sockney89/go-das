@@ -1,5 +1,7 @@
 package recursion
 
+//Function for swapping adjacent nodes in a linked list
+//Link to Leetcode question: https://leetcode.com/problems/swap-nodes-in-pairs
 func swapPairs(head *ListNode) *ListNode {
 
 	current := head
