@@ -17,11 +17,8 @@ Please feel free to look around, copy anything you might find interesting or for
 ---
 
 > Important!!!
-<br>
 > Under **no** circumstances should you use any of these snippets in production environments!!!
-<br>
 >> I will take no guarantee for any of the code in this repo.
-
 
 ---
 
